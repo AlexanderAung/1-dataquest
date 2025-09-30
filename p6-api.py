@@ -8,4 +8,11 @@ currencies = ["MMK", "SGD", "TBH"]
 for currency in currencies:
     url = endpoint + currency
     response = requests.get(url).json()
-    print(response["rates"]["USD"])
+    # print(response["rates"]["USD"])
+
+
+def hell(name):
+    print(f"Hello {name}")
+
+
+hell("Boy")
